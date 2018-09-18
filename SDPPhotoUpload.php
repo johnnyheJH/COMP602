@@ -10,7 +10,7 @@ and open the template in the editor.
         <title>"Photo Upload"</title>
     </head>
     <body>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
+        <form action="SDPPhotoUpload.php" method="post" enctype="multipart/form-data">
             <input type="file" name="file_img[]" multiple/>
             <input type="submit" name="btn_upload" value="Upload">
         </form>
