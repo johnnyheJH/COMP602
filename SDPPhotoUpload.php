@@ -4,14 +4,6 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<?php
-mysqli_connect("localhost", "my_user", "my_password", "my_db");
-
-if(mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
-?>
 <html>
     <head>
         <meta charset="UTF-8">
