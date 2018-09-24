@@ -1,0 +1,164 @@
+body{
+    width: 1280px;
+    height: 800px;
+    background-size: contain;
+}
+
+.logo-container img {
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.profileAvatar button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 770px;
+    margin-right: 3px;
+}
+
+
+.icon{
+    box-sizing: 40px;
+    color: #D25E61;
+    text-align: center;
+/*    padding: 18px;*/
+    
+}
+
+h3 {
+    padding-top: 18px;
+   
+}
+
+.fa.fa-user.icon{
+    font-size: 30px;
+}
+
+
+.icon:hover{
+    color: black;
+}
+
+#buttonsContainer{
+    
+    margin-top:280px;
+    margin-right: 700px;
+    
+}
+
+#buttonsContainer button{
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1F84AA;
+    padding: 10px;
+    border: 2px solid Black;
+    float: left;
+    opacity: 1;
+    
+}
+
+.btn1 {
+    margin-left: 20px;
+}
+
+.btn2{
+    opacity: 0.5;
+}
+
+.btn3{
+    opacity: 0.5;
+}
+.formContainer form{
+    background-color: rgba(10, 10, 10, 0.8);
+     
+    width: 700px;
+    height: 250px;
+    float: left;
+    margin-left: 450px; 
+    margin-right: 50px;
+    margin-top: 10px;
+    position:absolute;
+    border-radius: 30px;
+    padding: 20px;
+    
+    
+}
+
+input{
+    width: 190px;
+    height: 30px;
+    margin:10px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    display:inline-grid;
+    border: none;
+    border-top: 3px solid #1F84AA;
+    border-radius: 10px;
+    
+}
+
+.discription {
+    width: 350px;
+    height: 130px;
+    float: right;
+    margin-right: 80px;
+}
+
+.addbook {
+    float: right;
+    color: white;
+    margin-top: 145px;
+    margin-right: 100px;
+    font-size: 14px;
+    background: #1F84AA;
+}
+.formContainer lable{
+    margin: 5px;
+    font-size: 18px;
+    font-family: Athelas;
+/*    display: inline-block;*/
+    color: white;
+}
+#buttonsContainer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#buttonsContainer .icon{
+    
+    text-align: left;
+    float: left;
+}
+
+.fa.fa-plus.icon{
+    font-size: 30px;
+    color:black;
+}
+.fa.fa-search.icon{
+    font-size: 30px;
+    color:black;
+}
+.fa.fa-compass.icon{
+    font-size: 30px;
+    color:black;
+}
+ 
+#buttonsContainer .button2{
+    opacity: 0.6;
+}
+#buttonsContainer button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+

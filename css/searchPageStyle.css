@@ -1,0 +1,161 @@
+body{
+    width: 1280px;
+    height: 800px;
+    background-size: contain;
+}
+
+.logo-container img {
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.profileAvatar button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 770px;
+    margin-right: 3px;
+}
+.icon{
+    box-sizing: 40px;
+    color: #D25E61;
+    text-align: center;
+/*    padding: 18px;*/
+    
+}
+
+h3 {
+    padding-top: 18px;
+   
+}
+
+.fa.fa-user.icon{
+    font-size: 30px;
+}
+
+
+.icon:hover{
+    color: black;
+}
+
+#buttonsContainer{
+    
+    margin-top:280px;
+    margin-right: 700px;
+    
+}
+
+#buttonsContainer button{
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1F84AA;
+    padding: 10px;
+    border: 2px solid Black;
+    float: left;
+    opacity: 1;
+    
+}
+
+.btn2 {
+    margin-left: 20px;
+}
+
+.btn1{
+    opacity: 0.5;
+}
+
+.btn3{
+    opacity: 0.5;
+}
+
+#buttonsContainer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#buttonsContainer .icon{
+    
+    text-align: left;
+    float: left;
+}
+
+.formContainer {
+/*    background-color: rgba(10, 10, 10, 0.8);*/
+     
+    width: 800px;
+    height: 250px;
+    float: left;
+    margin-left: 400px; 
+    margin-right: 50px;
+    margin-top: 110px;
+    position:absolute;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #1F84AA;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fa.fa-plus.icon{
+    font-size: 30px;
+    color:black;
+}
+.fa.fa-search.icon{
+    font-size: 30px;
+    color:black;
+}
+.fa.fa-compass.icon{
+    font-size: 30px;
+    color:black;
+}
+
+.buttonsContainer button:hover{
+    opacity: 0.8;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+
+    
+}

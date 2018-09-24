@@ -1,0 +1,27 @@
+body{
+    width: 1280px;
+    height: 800px;
+    background-size: contain;
+}
+
+
+header{
+    height: 100px;
+}
+img{
+     width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    
+}
+
+.avatar img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 590px;
+    margin-top: 100px;
+}
