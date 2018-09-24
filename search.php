@@ -1,5 +1,5 @@
 <?php
-    inlcude 'search-header';
+    include 'search-header';
 ?>
 
 <form action="search.php" method="POST">
