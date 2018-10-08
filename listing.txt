@@ -1,0 +1,14 @@
+CREATE TABLE listing (
+
+listing_id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+listing_author varchar(256) NOT NULL,
+listing_papercode varchar(256),
+listing_edition varchar(256) NOT NULL,
+listing_isbn varchar(256) NOT NULL,
+listing_book_title varchar(256) NOT NULL,
+listing_price varchar(256) NOT NULL,
+listing_description varchar (256) NOT NULL,
+listing_publish_year varchar(256) NOT NULL,
+
+
+);
