@@ -1,0 +1,84 @@
+body{
+    width: 1280px;
+    height: 800px;
+    background-size: contain;
+}
+
+.logo-container img {
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.profileAvatar button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 690px;
+    margin-right: 3px;
+}
+.icon{
+    box-sizing: 40px;
+    color: #D25E61;
+    text-align: center;
+/*    padding: 18px;*/
+    
+}
+
+.fa.fa-user.icon{
+    font-size: 30px;
+}
+
+h3 {
+    padding-top: 18px;
+   margin-left: 700px;
+}
+
+h2{
+    color: #1F84AA;
+    font-family:Athelas;
+    margin-bottom: 20px;
+}
+.buttons1{
+    margin-top: 300px;
+    margin-left: 290px;
+    margin-right: 270px;
+    
+    
+}
+
+.buttons1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.et_pb_button {
+    
+    display: inline-block;
+    margin: 2px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    font-family:Athelas;
+    object-position: center;
+    width: 220px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #575F6A;
+}
+
+.et_pb_button:hover{
+    opacity: 0.8;
+}
+
+.icon:hover{
+    color: black;
+    opacity: 0.9;
+}
+
+
+
+

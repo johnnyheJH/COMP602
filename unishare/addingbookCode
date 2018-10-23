@@ -1,0 +1,80 @@
+<?php require('includes/config.php');
+
+
+//if member already logged in redirect to members page
+if( $user->is_logged_in() ){
+    header('Location: memberpage.php'); 
+    exit(); }
+
+//if form has been submitted start processing 
+if(isset($_POST['submit'])){
+    
+    
+	$booktitle = $_POST['booktitle'];
+    $stmt = $db->prepare('SELECT booktitle FROM listing WHERE booktitle = :booktitle');
+    $stmt->execute(array(':booktitle' => $booktitle));
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    $author = $_POST['author'];
+	$stmt = $db->prepare('SELECT author FROM listing WHERE author = :author');
+	$stmt->execute(array(':author' => $author));
+	$row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    $isbn = $_POST['isbn'];
+	$stmt = $db->prepare('SELECT isbn FROM listing WHERE isbn = :isbn');
+	$stmt->execute(array(':isbn' => $isbn));
+	$row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    $author = $_POST['description'];
+	$stmt = $db->prepare('SELECT description FROM listing WHERE description = :description');
+	$stmt->execute(array(':description' => $));
+	$row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    $author = $_POST['edition'];
+	$stmt = $db->prepare('SELECT edition FROM listing WHERE edition = :edition');
+	$stmt->execute(array(':edition' => $edition));
+	$row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    $author = $_POST['publishyear'];
+	$stmt = $db->prepare('SELECT publishyear FROM listing WHERE publishyear = :publishyear');
+	$stmt->execute(array(':publishyear' => $publishyear));
+	$row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    $author = $_POST['price'];
+	$stmt = $db->prepare('SELECT price FROM listing WHERE price = :price');
+	$stmt->execute(array(':price' => $price));
+	$row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    
+    
+    if(!isset($error)){
+        
+        
+		try {
+			//insert member details into database with a prepared statement
+			$stmt = $db->prepare('INSERT INTO members (booktitle,author,isbn,description, edition, publishyear,price) VALUES (:booktitle, :author, :isbn, :description, :edition, :publishyear, :price)');
+			$stmt->execute(array(
+				':booktitle' => $booktitle,
+				':author' => $author,
+				':isbn' => $isbn,
+				':description' => $description,
+                ':edition' => $edition,
+                ':publishyear' => $publishyear,
+                ':price' => $price
+			));
+			$id = $db->lastInsertId('listing_id');
+            
+            //redirect to index page
+			header('Location: memberpage.php?action=joined');
+			exit;
+		//else catch the exception and show the error.
+		} catch(PDOException $e) {
+		    $error[] = $e->getMessage();
+		}
+	}
+    
+}
+
+$title = 'Adding Book';
+
+?>

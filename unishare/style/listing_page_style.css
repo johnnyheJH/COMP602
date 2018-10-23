@@ -1,0 +1,90 @@
+body{
+    width: 1280px;
+    height: 800px;
+    background-size: contain;
+}
+
+#container{
+    width: 100%;
+}
+
+.logo-container img {
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.profileAvatar button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 690px;
+    margin-right: 3px;
+}
+
+.photosContainer{
+    margin-top: 100px;
+    margin-left: 480px;
+    margin-right: 480px;
+    
+}
+.photosContainer img{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    
+}
+
+.postContainer{
+    width: 800px;
+    height: inherit;
+    background: White;
+    border-radius: 30px;
+    margin-left: 240px;
+}
+
+.postContainer h2{
+    text-align: center;
+}
+
+.bookDetails {
+    margin-left: 60px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.icon{
+    box-sizing: 40px;
+    color: #D25E61;
+    text-align: center;
+/*    padding: 18px;*/
+    
+}
+
+h3 {
+    padding-top: 18px;
+    margin-left: 700px;
+}
+
+.fa.fa-user.icon{
+    font-size: 30px;
+}
+
+
+.icon:hover{
+    color: black;
+}
+.descriptionContainer {
+    width: 800px;
+    height: inherit;
+    background: white;
+    margin-left: 240px;
+}
