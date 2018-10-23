@@ -12,32 +12,35 @@ This is currently only available to New Zealand Universities (2018) however we d
 
 Files (22/10/2018 @ 3:28pm): 
 
-	css (directory)
+	style (directory)
 	img (directory)
 	includes (directory)
-		addBookPage.html 
+	classes (directory)
+	
+		adding_book.php 
 		background.png
-		choosingaTool.html 
+		add_explore_search.php
 		fileupload.php  
-		forgotPsw.html 
-		forgotpPassword.php
-		index.html 
-		listing.txt 
-		majorPage.html 
-		profilePage.html 
 		resetPassword.php 
-		search-page.php 
-		search.php 
-		searchPage.html 
-		signUpPage.html 
-		user.php 
-		userAccount.php 
+		reset.php
+		index.php 
+		listing_page.php
+		listing.txt 
+		memberpage.php 
+		profilePage.php 
+		login.php 
+		logout.php
+		search-page.php  
+		searchPage.html  
+		activate.php 
+		addBook.php 
 		userTest.php 
 		usersdatabase.txt 
+		
 
-For a full description of the web page please email unishare@gmail.com with the subject line "MOREINFO"
+For a full description of the web page please email unisharee@gmail.com with the subject line "MOREINFO"
 
-To submit feature suggestions, or to track changes please email unishare@gmail.com with the subject line "FEATURES"
+To submit feature suggestions, or to track changes please email unisharee@gmail.com with the subject line "FEATURES"
 
   **  Requirements  **
 
@@ -156,7 +159,7 @@ Lolo Saulala - AchillesShadow
 
   **  Contribute  **
 
-If you would like to help contribute to the project in anyway please feel free to email unishare@gmail.com with the subject line "DEVTEAM RECRUIT" with your name and also any contact details
+If you would like to help contribute to the project in anyway please feel free to email unisharee@gmail.com with the subject line "DEVTEAM RECRUIT" with your name and also any contact details
 other than email
 
   **  Credits  **
@@ -169,5 +172,5 @@ GitHub
 
   **  Trouble Shooting **
 
-If you encounter any bugs or run-time errors please email unishare@gmail.com with the subject line "BUG URGENT" and describe where on the website you encountered and the bug
+If you encounter any bugs or run-time errors please email unisharee@gmail.com with the subject line "BUG URGENT" and describe where on the website you encountered and the bug
 and what issues resulted from the bug.
